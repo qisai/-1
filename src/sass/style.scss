@@ -1,0 +1,114 @@
+@import"common.scss";
+@import"_mixin.scss";
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    width: 100%;
+    height: rem(44px);
+    background: #ccc;
+    line-height: rem(44px);
+    display: flex;
+    justify-content: space-between  ;
+    font-size: rem(30px);
+    color:red;
+    b{
+        margin-left: rem(5px);
+    }
+    span{
+        width: rem(30px);
+        height: rem(30px);
+        background: #000000;
+        border-radius: 50%;
+        margin: rem(7px) rem(10px) 0 0;
+    }
+}
+.wrap{
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.head{
+    width: 100%;
+    height: rem(40px);
+    background: red;
+    color: #fff;
+    // flex: 1;
+    ul{
+        width: 100%;
+        height: rem(40px);
+        background: red;
+        color: #fff;
+        display: flex;
+        overflow-x: scroll;
+        font-size: rem(20px);
+        flex-wrap: nowrap;
+        line-height: rem(40px);
+        li{
+            flex-shrink: 0;
+            margin:0 rem(10px);
+        }
+    }
+}
+.wraper{
+    width: 100%;
+    flex: 1;
+    .libiao{
+        width: 100%;
+      
+        
+        ul{
+            width: 100%;
+            
+          
+            li{
+                width: 100%;
+                height: rem(40px);
+                line-height: rem(40px);
+                display: flex;
+                font-size: rem(16px);
+                justify-content: space-between;
+                b{
+                    border: rem(1px) solid red;
+                    padding: rem(3px) rem(8px)
+                }
+            }
+        }
+    }
+}
+.swiper-container{
+    height: rem(200px);
+}
+.lie{
+    width: 100%;
+    ol{
+        width: 100%;
+        li{
+            width: 100%;height: rem(80px);
+            display: flex;
+            span{
+                width: rem(60px);
+                height: rem(60px);
+                background: #000;
+                margin: rem(10px);
+            }
+            p{
+                font-size: rem(16px);
+                margin-top: rem(10px);
+                b{
+                    padding: rem(3px) rem(8px);
+                    background: red;
+                }
+            }
+        }
+    }
+
+}
